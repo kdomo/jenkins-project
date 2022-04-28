@@ -17,4 +17,10 @@ class JenkinsProjectApplicationTests {
 		String hello = "hello";
 		assertThat("hello").isEqualTo(hello);
 	}
+
+	@Test
+	public void 테스트1() throws Exception{
+		String hello1 = "hello1";
+		assertThat("hello1").isEqualTo(hello1);
+	}
 }
